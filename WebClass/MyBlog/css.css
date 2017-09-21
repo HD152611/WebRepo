@@ -1,0 +1,56 @@
+@CHARSET "utf-8";
+
+#signup {
+	margin-top:100px;
+	width:500px;
+	height:500px;
+	border: 1px solid gray;
+	padding: 100px;
+	margin: auto;
+}
+#nexon{
+	height:300px;
+	text-align: center;
+	line-height: 30px;
+	padding: 20px;
+	margin: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: pink;
+}
+#nexonimg{
+	float:right;
+	margin-right:50px; 
+}
+#career {
+	height: 400px;
+	padding: 75px;
+}
+
+#hobby {
+	padding: 50px;
+}
+#crackertext{
+	width:220px;
+	border: solid 1px gray;
+	padding : 4px;
+	margin-top: 50px;
+}
+#crackerimg{
+	float: left;
+}
+#nexontext {
+	width: 220px;
+	margin-left;
+	border: solid 1px gray;
+	padding : 4px;
+}
+#book1{
+	margin-left: 10%;
+}
+#book2{
+	margin-left: 20%;
+}
+#book3{
+	margin-left: 20%;
+}
