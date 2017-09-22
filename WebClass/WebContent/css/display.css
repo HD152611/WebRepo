@@ -1,0 +1,15 @@
+@charset "EUC-KR";
+<style>
+#menu
+{
+   border: solid blue;
+   background-cololr: blue;
+}
+ul li
+{
+   display: inline;
+   margin: 5px;
+   font-weight: bold;
+   color: yellow;
+}
+</style>
