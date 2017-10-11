@@ -106,7 +106,7 @@
 		style="width: 1020px; height: 400px; margin: auto">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="photo3.png" alt="First slide">
+				<img class="d-block w-100" src="MyBlog/photo3.png" alt="First slide">
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100" src="photo2.png" alt="Second slide">
