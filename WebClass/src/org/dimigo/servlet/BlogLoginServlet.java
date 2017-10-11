@@ -53,23 +53,21 @@ public class BlogLoginServlet extends HttpServlet {
 		String pwd = request.getParameter("pwd");
 		System.out.printf("id : %s, pwd : %s", id, pwd);
 
-		boolean result = true;
-
-		if (result) {
+		if ("test@naver.com".equals(id)) {
 			// 세션에 사용자 생성
 			HttpSession session = request.getSession();
 			UserVO user = new UserVO();
 			user.setId(id);
-			user.setName("홍길동");
-			user.setNickname("의적");
+			user.setName("테스트");
+			user.setNickname("테스트중");
 
 			session.setAttribute("user", user);
 
-			RequestDispatcher rd = request.getRequestDispatcher("jsp/home.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("MyBlog/myblog.jsp");
 			rd.forward(request, response);
 		} else {
 			request.setAttribute("msg", "error");
-			RequestDispatcher rd = request.getRequestDispatcher("jsp/login.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("MyBlog/myblog.jsp");
 			rd.forward(request, response);
 		}
 		out.close();
